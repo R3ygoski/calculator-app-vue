@@ -1,0 +1,65 @@
+// Theme 1
+    // Backgrounds
+    $main-bg-one: hsl(222, 26%, 31%);
+    $keypad-bg-one: hsl(223, 31%, 20%);
+    $screen-bg-one: hsl(224, 36%, 15%);
+    
+    // Keys
+    $main-key-one: hsl(30, 25%, 89%);
+    $main-key-one-shadow: hsl(28, 16%, 65%);
+    $erase-key-one: hsl(225, 21%, 49%);
+    $erase-key-one-shadow: hsl(224, 28%, 35%);
+    $result-key-one: hsl(6, 63%, 50%);
+    $result-key-one-shadow: hsl(6, 70%, 34%);
+
+    // Text
+    $main-text-one: hsl(221, 14%, 31%);
+    $secondary-text-one: hsl(0, 0%, 100%);
+
+    // Element Shadow 
+    $shadow-one: 0 8px 15px hsla(0, 0%, 0%, 0.25), 0 4px 20px hsla(0, 0%, 0%, 0.2);
+
+// Theme 2
+    // Backgrounds
+    $main-bg-two: hsl(0, 0%, 90%);
+    $keypad-bg-two: hsl(0, 5%, 81%);
+    $screen-bg-two: hsl(0, 0%, 93%);
+    
+    // Keys
+    $main-key-two: hsl(45, 7%, 89%);
+    $main-key-two-shadow: hsl(35, 11%, 61%);
+    $erase-key-two: hsl(185, 42%, 37%);
+    $erase-key-two-shadow: hsl(185, 58%, 25%);
+    $result-key-two: hsl(25, 98%, 40%);
+    $result-key-two-shadow: hsl(25, 99%, 27%);
+
+    // Text
+    $main-text-two: hsl(60, 10%, 19%);
+    $secondary-text-two: hsl(0, 0%, 100%);
+
+    // Element Shadow 
+    $shadow-two: 0 8px 15px hsla(0, 0%, 0%, 0.3), 0 4px 20px hsla(0, 0%, 0%, 0.25);
+
+// Theme 3
+    // Backgrounds
+    
+    $main-bg-three: hsl(268, 75%, 9%);
+    $keypad-bg-three: hsl(268, 71%, 12%);
+    $screen-bg-three: hsl(268, 71%, 12%);
+    
+    // Keys
+    $main-key-three: hsl(268, 47%, 21%);
+    $main-key-three-shadow: hsl(290, 70%, 36%);
+    $erase-key-three: hsl(281, 89%, 26%);
+    $erase-key-three-shadow: hsl(285, 91%, 52%);
+    $result-key-three: hsl(176, 100%, 44%);
+    $result-key-three-shadow: hsl(177, 92%, 70%);
+
+    // Text
+    $main-text-three: hsl(52, 100%, 62%);
+    $secondary-text-three: hsl(0, 0%, 100%);
+    $terciary-text-three: hsl(198, 20%, 13%);
+
+    // Element Shadow 
+    $shadow-three: 0 8px 15px hsla(52, 50%, 25%, 0.25), 0 4px 20px hsla(52, 50%, 25%, 0.2);
+

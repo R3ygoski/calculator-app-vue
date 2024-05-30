@@ -1,0 +1,50 @@
+@use '../var' as v;
+
+@mixin buttonTheme($theme: 'dark', $type: 'normal'){
+    @if ($theme=='dark'){
+        @if ($type=='normal'){
+            background: v.$main-key-one;
+            border-color: v.$main-key-one-shadow;
+            color: v.$main-text-one;
+        } @else if ($type=='erase'){
+            background: v.$erase-key-one;
+            border-color: v.$erase-key-one-shadow;
+            color: v.$secondary-text-one;
+        } @else if ($type=='result'){
+            background: v.$result-key-one;
+            border-color: v.$result-key-one-shadow;
+            color: v.$secondary-text-one;
+        }
+
+    } @else if ($theme=='light'){
+        @if ($type=='normal'){
+            background: v.$main-key-two;
+            border-color: v.$main-key-two-shadow;
+            color: v.$main-text-two;
+        } @else if ($type=='erase'){
+            background: v.$erase-key-two;
+            border-color: v.$erase-key-two-shadow;
+            color: v.$secondary-text-two;
+        } @else if ($type=='result'){
+            background: v.$result-key-two;
+            border-color: v.$result-key-two-shadow;
+            color: v.$secondary-text-two;
+        }
+
+    } @else if ($theme=='custom'){
+        @if ($type=='normal'){
+            background: v.$main-key-three;
+            border-color: v.$main-key-three-shadow;
+            color: v.$main-text-three;
+        } @else if ($type=='erase'){
+            background: v.$erase-key-three;
+            border-color: v.$erase-key-three-shadow;
+            color: v.$secondary-text-three;
+        } @else if ($type=='result'){
+            background: v.$result-key-three;
+            border-color: v.$result-key-three-shadow;
+            color: v.$terciary-text-three;
+        }
+
+    }
+}

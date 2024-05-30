@@ -1,0 +1,27 @@
+@use './var' as v;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.dark {
+  background: v.$main-bg-one;
+}
+.light {
+  background: v.$main-bg-two;
+}
+.custom {
+  background: v.$main-bg-three;
+}

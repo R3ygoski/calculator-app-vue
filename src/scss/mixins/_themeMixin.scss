@@ -1,0 +1,24 @@
+@use '../var' as v;
+
+@mixin togglerTheme($theme: 'dark'){
+    @if ($theme=='dark'){
+        background: v.$keypad-bg-one;
+        box-shadow: v.$shadow-one;
+    } @else if ($theme=='light'){
+        background: v.$keypad-bg-two;
+        box-shadow: v.$shadow-two;
+    } @else if ($theme=='custom'){
+        background: v.$keypad-bg-three;
+        box-shadow: v.$shadow-three;
+    }
+}
+
+@mixin togglerBallTheme($theme: 'dark'){
+    @if ($theme=='dark'){
+        background: v.$result-key-one;
+    } @else if ($theme=='light'){
+        background: v.$result-key-two;
+    } @else if ($theme=='custom'){
+        background: v.$result-key-three;
+    }
+}

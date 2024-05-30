@@ -1,0 +1,14 @@
+@use '../var' as v;
+
+@mixin calculatorTheme($theme: 'dark'){
+    @if ($theme=='dark'){
+        background: v.$keypad-bg-one;
+        box-shadow: v.$shadow-one;
+    } @else if ($theme=='light'){
+        background: v.$keypad-bg-two;
+        box-shadow: v.$shadow-two;
+    } @else if ($theme=='custom'){
+        background: v.$keypad-bg-three;
+        box-shadow: v.$shadow-three;
+    }
+}

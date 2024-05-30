@@ -1,0 +1,11 @@
+@use '../var' as v;
+
+@mixin headerTheme($theme: 'dark'){
+    @if ($theme=='dark'){
+        color: v.$secondary-text-one;
+    } @else if ($theme=='light'){
+        color: v.$main-text-two;
+    } @else if ($theme=='custom'){
+        color: v.$main-text-three;
+    }
+}

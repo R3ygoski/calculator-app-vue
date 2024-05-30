@@ -1,0 +1,17 @@
+@use '../var' as v;
+
+@mixin displayTheme($theme: 'dark'){
+    @if ($theme=='dark'){
+        background: v.$screen-bg-one;
+        color: v.$secondary-text-one;
+        box-shadow: v.$shadow-one;
+    } @else if ($theme=='light'){
+        background: v.$screen-bg-two;
+        color: v.$main-text-two;
+        box-shadow: v.$shadow-two;
+    } @else if ($theme=='custom'){
+        background: v.$screen-bg-three;
+        color: v.$main-text-three;
+        box-shadow: v.$shadow-three;
+    }
+}
