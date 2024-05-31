@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/calculator-app-made-with-vue-ts-pinia-and-sass-a_m2dDMJCd)
+- Live Site URL: [Github](https://r3ygoski.github.io/calculator-app-vue/)
 
 ## My process
 
